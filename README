@@ -1,0 +1,17 @@
+*******************************************************************************
+Tema1
+*******************************************************************************
+Implementarea temei:
+    - In cadrul temei am folosit 2 dictionare
+        i) unul pentru producatori in care le tin id-ul, numarul produselor
+        dar si produsele
+        ii) unul pentru cart in care tin date de forma : id-ul producatorului->
+        elementele lui
+    - 3 Lock-uri pentru operatiile de print, remove si incrementarea de elemente
+    pentru fiecare cart
+    - o variabila care mentine cate carturi sunt
+
+Pentru producer am apelati functia de publish pentru elemente de atatea ori
+cat se zice in input
+Pentru consumer am apelat functiile specifice din input de atatea ori cate 
+se mentioneaza
